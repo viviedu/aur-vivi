@@ -1,6 +1,6 @@
 pkgbase = vivi
 	pkgdesc = Client for Vivi, a wireless screen sharing solution
-	pkgver = 3.7.4
+	pkgver = 3.7.7
 	pkgrel = 1
 	url = http://vivi.io
 	arch = x86_64
@@ -11,7 +11,7 @@ pkgbase = vivi
 	depends = glib2
 	depends = libpulse
 	depends = libx11
-	source = vivi-3.7.4.deb::https://downloads.vivi.io/app/vivi-3.7.4.deb
-	md5sums = a7e272fab530e2e90002707ef673e5c4
+	source = vivi-3.7.7.deb::https://downloads.vivi.io/app/vivi-3.7.7.deb
+	md5sums = 50fa9ef080f3dab4735ee2015687afb1
 
 pkgname = vivi

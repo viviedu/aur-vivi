@@ -8,7 +8,7 @@ url="http://vivi.io"
 license=('unknown')
 depends=('gtk3' 'libxss' 'nss' 'glib2' 'libpulse' 'libx11')
 source=("${pkgname}-${pkgver}.deb::https://downloads.vivi.io/app/${pkgname}-${pkgver}.deb")
-md5sums=('e0cf96bd1788cf66f87ec835b0247448')
+md5sums=('3a2ca1623a1e92e7876626a7f6858398')
 
 package() {
   msg2 "Extracting the data.tar.xz..."

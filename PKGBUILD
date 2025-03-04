@@ -1,6 +1,6 @@
 # Maintainer: Jake Barnes <me+aur@jakebarn.es>
 pkgname=vivi
-pkgver=3.9.2
+pkgver=3.9.3
 pkgrel=1
 pkgdesc="Client for Vivi, a wireless screen sharing solution"
 arch=('x86_64')
@@ -8,7 +8,7 @@ url="http://vivi.io"
 license=('unknown')
 depends=('gtk3' 'libxss' 'nss' 'glib2' 'libpulse' 'libx11')
 source=("${pkgname}-${pkgver}.deb::https://downloads.vivi.io/app/${pkgname}-${pkgver}.deb")
-md5sums=('8c6ff1b583e30bedc04a8fdaed78ed6e')
+md5sums=('7829393addc2008801afbbdc6a18ff43')
 
 package() {
   msg2 "Extracting the data.tar.xz..."
